@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+#formCV label{
+	width:40%;
+}
+
+#formCV div{
+	margin-top:1.1em;
+}
+
+#formCV input{
+	border-radius:4px;
+}
+
+#formCV input[type="text"], #formCV input[type="tel"], #formCV input[type="email"], #formCV input[type="file"]{
+	display: inline;
+	max-width:inherit;
+	width:55%;
+}
+
+#formCV input[type="file"]{
+	padding: 9px 0px;	 
+}
+#ocultoLengProgramacion, #ocultoDisenioGrafico, #ocultoLengBaseDatos, #ocultoCMS{
+	display:none;	
+}
+
+#formCV span.error{
+	font-size: 0.8em;
+  	color: #F00;
+  	font-weight: bold;
+	margin-left: 40%;
+}
+
+#formCV  input.error, #formCV select.error  {
+  background: #FFA9B8;
+  border: 1px solid red;
+}
+
+textarea + span.error, input[type="radio"].error, input[type="checkbox"].error + span.error{
+	margin-left: 0 !important;
+}
+ 
+input[type="radio"] + span.error, input[type="checkbox"] + span.error{
+	margin-left: 0;
+    position: absolute;
+    right: 6%;
+}
+
+input[type="checkbox"] + span.error{
+	left: 2.5%;
+	margin-top: 3.5em;
+}

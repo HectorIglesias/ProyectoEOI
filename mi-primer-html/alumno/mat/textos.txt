@@ -1,0 +1,44 @@
+** sólo tienes que insertar las imágenes de 
+- el banner rosa
+- el banner "HTML5 + CSS3"
+el resto de imágenes se muestran por css
+
+/////////////////////////
+
+título de la página: Xperia - captura tu vida con la tecnología de SONY
+
+Xperia
+
+tecnología de SONY
+
+home
+modelos
+apps y servicios
+soporte
+blog
+tienda
+
+Xperia M, nuevo modelo de Sony de smartphone de calidad
+
+Xperia M: el nuevo smartphone Sony con funciones One-touch.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum sagittis purus, in egestas justo egestas in. Nulla auctor nibh quam, at hendrerit lacus pulvinar ut. Cras facilisis viverra eros sed feugiat. Pellentesque ultrices urna urna, ut fermentum elit feugiat at. Cras in feugiat ligula. Sed et accumsan quam, quis pulvinar lorem. Sed felis mauris, egestas eu pharetra et, egestas et justo. Donec nisi dui, hendrerit sit amet odio nec, elementum volutpat metus. Vivamus suscipit tristique neque, nec vestibulum lacus convallis porttitor. Sed et tortor et magna iaculis lacinia non eu purus. Maecenas eget urna non mauris rutrum imperdiet.
+
+Xperia™ Z1: toda la potencia e inteligencia de Sony en un smartphone de máxima calidad.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum sagittis purus, in egestas justo egestas in. Nulla auctor nibh quam, at hendrerit lacus pulvinar ut. Cras facilisis viverra eros sed feugiat. Pellentesque ultrices urna urna, ut fermentum elit feugiat at. Cras in feugiat ligula. Sed et accumsan quam, quis pulvinar lorem. Sed felis mauris, egestas eu pharetra et, egestas et justo. Donec nisi dui, hendrerit sit amet odio nec, elementum volutpat metus. Vivamus suscipit tristique neque, nec vestibulum lacus convallis porttitor. Sed et tortor et magna iaculis lacinia non eu purus. Maecenas eget urna non mauris rutrum imperdiet.
+
+Xperia Z1
+Lo mejor de Sony. Lo mejor de ti.
+
+Xperia M
+Siente un toque de magia.
+
+Xperia MZW1
+Lo mejor de Sony. Lo mejor de ti. Lo mejor de todos.
+
+Ponte en contacto con nosotros
+Cookies
+Legal
+La compañía
+Prensa y noticias
+Seguridad del software

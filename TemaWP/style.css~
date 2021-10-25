@@ -1,0 +1,256 @@
+/*
+Theme Name: Mi Tema
+Theme URI: 
+Author: Héctor Iglesias Duque
+Author URI:
+Description:
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI:
+Tags:
+Text Domain:
+*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/*ANIMACIONES*/
+@keyframes fundidoMio{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+
+body{
+	background-color: #053f3e;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	font-size: 17px;
+}
+
+.hamburguesa{
+	display: none;
+}
+
+header a{
+	background-color: #f26522;
+}
+
+img{
+	display:block;
+	max-width: 100%;
+	height: auto;
+}
+
+header, aside, footer, article{
+	max-width: 940px;
+	margin: auto;
+}
+
+hgroup{
+	height: 32px;
+	background-image: url(logotipo_cabecera.png);
+	background-repeat: no-repeat;
+	margin-top: 15px;
+	padding-left: 75px;
+	
+	animation: fundidoMio 1s ease-out 0s infinite alternate both;
+}
+
+hgroup h2{
+	float: left;
+	margin-right: 10px;
+	padding-right: 10px;
+	font-size: 18px;
+	border-right: solid 1px #76b2b1;
+}
+
+hgroup h3{
+	float: left;
+	color: #76b2b1;
+	font-size: 18px;
+}
+
+header nav{
+	margin-top: 30px;
+	
+	animation: fundidoMio 1s ease-out 0.5s infinite alternate both;
+}
+
+header nav ul li{
+	float:left;
+	margin-right: 5px;
+	margin-bottom: 2px;
+	text-transform: uppercase;
+}
+
+header nav ul li a{
+	color:white;
+	padding: 15px;
+	display: block;
+	font-size: 15px;
+}
+
+header nav ul li a:hover{
+	background-color: #fff;
+	color: #f26522;
+}
+
+article{
+	color: #000;
+	clear: both;
+	
+	
+animation: fundidoMio 1s ease-out 1s alternate both;
+}
+
+article header, article section{
+	background-color: #fff;
+	padding: 15px;
+}
+
+article h1{
+	font-size: 40px;
+	padding-bottom: 5px;
+	padding-top: 20px;
+}
+
+article section p{
+	margin-bottom: 20px;
+}
+article h2{
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+
+article footer ul li{
+	width: 30%;	
+	float: left;
+	margin: 1.5%;	
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+article footer ul li p{
+	padding: 20px;
+	background-color: #ff3098;
+	color: #fff;
+	position: absolute;
+	bottom: 0%;
+	width: 100%;
+	/*display: none;*/
+}
+
+article footer ul li a:hover p{
+	background-color: #000;
+	/*display: block;*/
+}
+
+.azul{
+	background-color: #29a9df;
+}
+
+.naranja{
+	background-color: #f06529;
+}
+
+.piePagina nav{
+	background-color: #000;
+	background-image: url(logotipo_sony.gif);
+	background-repeat: no-repeat;
+	background-position: 40px 20px;
+	padding-top: 20px;
+	padding-left: 160px;
+	float: left;
+	width: 100%;
+	padding-bottom: 80px;
+	margin-top: 30px;
+}
+
+.piePagina li{
+	float: left;
+	padding-right: 10px;
+	font-size: 14px;
+}
+
+.piePagina a{
+	color: #fff;
+}
+
+.piePagina a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+@media screen and (max-width: 900px){ 
+	header nav{
+		display: none;	
+	}	
+	
+	header nav ul li{
+		float: none;
+		text-align: right;	
+	}
+	
+	hgroup{
+		margin-left: 15px;
+	}
+	
+	article footer ul li p{
+		position: inherit;
+		min-height: 120px;	
+	}
+	
+	.hamburguesa{
+		position: fixed;
+		display: block;
+		top: 5px;
+		right: 5px;
+		z-index: 999999;	
+	}
+}
+
+@media screen and (max-width: 600px) { 
+	article footer ul li{
+		width: 98%;
+	}
+	
+	article footer ul li img{
+			width: 100%;
+	}
+	.piePagina nav{
+			background-position: center 10%;
+			padding-left: 0; 	
+	}
+	
+	.piePagina ul{
+		margin-top: 10%;	
+	}
+		
+	.piePagina li{
+		float: none;
+		text-align: center;
+		margin-top: 1%;	
+	}
+	
+	.hamburguesa{
+		position: fixed;
+		display: block;
+		top: 5px;
+		right: 5px;
+		z-index: 999999; 	
+	}
+}
+
+
+*{
+/*IExplorer >=9*/
+transition: 0.7s ease-out 0.2s all;
+/*FireFox:*/
+-moz-transition: 0.7s ease-out 0.2s all;
+/*Safari & Chrome:*/
+-webkit-transition: 0.7s ease-out 0.2s all;
+}

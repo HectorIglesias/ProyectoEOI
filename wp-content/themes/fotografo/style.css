@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Bigelow+Rules');
+/*
+Theme Name: Fotografo
+Theme URI: http://awothemes.pro/themes/fotografo
+Author: Awothemes
+Author URI: http://awothemes.pro
+Description: Fotografo is a creative photography WordPress template, with a clean and responsive design, that looks perfect on desktop, tablet or mobile screens. 
+Version: 1.0.7
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: fotografo
+Tags: custom-background, two-columns, left-sidebar, theme-options, grid-layout, translation-ready, threaded-comments, sticky-post, post-formats, custom-menu, blog, news, photography, portfolio
+*/
+.nav-panel{
+	width: 24% !important;
+	overflow-x: inherit !important;
+	overflow-y: inherit !important;
+}
+
+.site-branding{
+	position:absolute !important;
+	margin-left: 24% !important;
+	padding-left: 2em !important;
+    font-size: 1em;
+    width: 100%;
+	border-bottom: none !important;
+}
+
+.site-branding .logo a{
+	font-size: 3.5rem !important;
+	font-family: 'Bigelow Rules', cursive !important;
+	text-transform: capitalize;	
+}
+
+.site-description a{
+	color: #0086B5 !important;	
+}
+
+.main-nav{
+	margin-top: 7em;	
+}
+
+#main{
+	top: 7em;	
+}
+
+.site-main{
+	margin-left: 0 !important;
+}
+
+#primary{
+	margin-left: 24% !important;
+}
+
+/*FRONT-PAGE.PHP*/
+#contactoFoto{
+	height: 120px;
+}
+
+#contacto{
+	float:left;
+	width: 60%;
+	height:100%;
+}
+
+#foto{
+	text-align:right;
+	height:100%;
+}
+
+#estudios, #experiencia{
+	height: 250px;
+	margin-top: 2.5em;
+}
+
+#cualidades{
+	height:150px;
+}
+
+#programacion, #disenioGrafico, #baseDatos, #cms{
+	width: 24.5%;
+	height: 100%;
+	float:left;
+}
+
+
+/*PAGE-CURRICULUM.PHP*/
+.listaCurriculum{
+	margin-bottom:0.75em;
+}
+
+.site-main:first-child .listaCurriculum{
+	margin-top:0.25em;
+}
+
+/*FORMULARIO CURRICULUM*/
+.oculto{
+	margin-top:-1em !important;
+	margin-left: 40%;
+}
+
+/*MEDIA QUERIES*/
+@media(max-width: 1500px){
+	.search-submit{
+		right:15% !important;		
+	}	
+}
+	
+@media(min-width: 1200px){
+	.site-branding{
+		width: 1140px;
+    	max-width: 100%;
+	}
+}
+
+@media (max-width: 991px){
+	#primary{
+	margin-left: 14% !important;
+	}
+	
+	.desaparece{
+		display:none;	
+	}
+	
+	.site-branding{
+		margin-left: 10% !important;
+	}
+	
+	#main{
+		top: 4em;		
+	}
+		
+	#menu-toogle{
+		top: 1em !important;	
+	}
+	
+	.logo{
+		margin-top: 1em;		
+	}
+}
